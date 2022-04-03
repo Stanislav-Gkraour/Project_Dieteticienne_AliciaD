@@ -1,4 +1,17 @@
+// fontawesome
+$fa-font-path : "../../node_modules/@fortawesome/fontawesome-free/webfonts";
+
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
 
 $navBgColor1: #8FBDC1;
 $navBgColor2: #B0E57B;
 $navBgColor3: #D6F6DD;
+
+$font1 : 'Fredericka the Great', cursive;
+$font2 : 'Inspiration', cursive;

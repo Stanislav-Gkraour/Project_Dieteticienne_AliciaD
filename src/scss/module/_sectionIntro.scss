@@ -1,0 +1,85 @@
+.introduction{
+    display: flex;
+
+    div{
+        position: relative;
+        .right{
+            
+            width: 30%;
+            background-color: $navBgColor3;
+        }
+        .left{
+            
+            width: 70%;
+            // border: 1px solid black;
+            .introText{
+                width: 60%;
+            }
+            h1{
+                font-family: 'Fredericka the Great', cursives;
+                font-size: 5em;
+            }
+            h2{
+                font-family: 'Inspiration', cursive;
+                font-weight: bolder;
+                font-size: 3em;
+            }
+            p{
+                font-family:'Crete Round', serif ;
+            }
+            ul{
+                li{
+                    font-family:'Crete Round', serif;
+                }
+            }
+        }
+        .card{
+            height: max-content;
+            width: 20em;
+            border-radius: 2em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center;
+            position: absolute;
+            top: 10em;
+            left: 62%;
+            background-color: $navBgColor2 ;
+            box-shadow: 3px 3px 15px 5px rgba(165, 213, 133, 0.803);
+            border: none;
+  
+                .ownerImage{
+                    margin-top: 2em;
+                    margin-bottom: 1.5em;
+                    height: 9.375em;
+                    width: 50%;
+                    border-radius: 50%;
+                }
+                .info{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 1em; 
+                    font-family: 'Crete Round', serif;;
+                    hr{
+                        height: 2px;
+                        color: #ff002f;
+                        width: 50%;
+                    }
+                    p{
+                        font-size: large;
+                        font-weight: 600;
+                    }
+                }
+                .social_media{
+                    
+                    background-color: white;
+                    border-bottom-left-radius: 2em;
+                    border-bottom-right-radius: 2em;
+                }
+            
+        }
+    }
+}
+   
