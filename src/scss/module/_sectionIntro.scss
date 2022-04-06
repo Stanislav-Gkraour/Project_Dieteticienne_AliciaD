@@ -18,18 +18,37 @@
             h1{
                 font-family: 'Fredericka the Great', cursives;
                 font-size: 5em;
+                text-align: center;
+                margin: 0.5em ;
             }
+
             h2{
                 font-family: 'Inspiration', cursive;
                 font-weight: bolder;
-                font-size: 3em;
+                font-size: 3.5em;
+                text-align: center;
+                color: #332f2f;
+                margin: 0.5em;
             }
             p{
                 font-family:'Crete Round', serif ;
+                color: #575050;
+                font-weight:bold ;
+                font-size: large;
+                padding: 0.5em;
+
+                a{
+
+                    text-decoration: dotted;
+                    color: rgb(83, 156, 83);
+                }
             }
             ul{
+                width: 100%;
                 li{
                     font-family:'Crete Round', serif;
+                    font-size: medium;
+                    color: #575050;
                 }
             }
         }
@@ -61,14 +80,14 @@
                     justify-content: center;
                     align-items: center;
                     margin-bottom: 1em; 
-                    font-family: 'Crete Round', serif;;
+                    font-family: 'Crete Round', serif;
                     hr{
                         height: 2px;
                         color: #ff002f;
                         width: 50%;
                     }
                     p{
-                        font-size: large;
+                        font-size: medium;
                         font-weight: 600;
                     }
                 }

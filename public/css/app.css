@@ -21289,6 +21289,50 @@ header .headerImage {
   width: 100%;
 }
 
+.consultations .container {
+  width: 78%;
+}
+.consultations .container .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.consultations .container .row h1, .consultations .container .row .h1 {
+  font-family: "Crete Round", serif;
+  color: #352d2d;
+}
+.consultations .container .row .col {
+  margin: 3em;
+  background-color: #d2f3b2;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3em;
+}
+.consultations .container .row .col img {
+  height: 15em;
+  width: 25%;
+  object-fit: fill;
+  border-radius: 60%;
+  border: 5px solid lightblue;
+  margin-top: 2em;
+}
+.consultations .container .row .col .image1 {
+  object-fit: cover;
+}
+.consultations .container .row .col .image2 {
+  object-fit: cover;
+}
+.consultations .container .row .col h3, .consultations .container .row .col .h3 {
+  margin-top: 1.5em;
+}
+.consultations .container .row .col p {
+  margin: 2em;
+  font-family: "Crete Round", serif;
+}
+
 .introduction {
   display: flex;
 }
@@ -21308,17 +21352,35 @@ header .headerImage {
 .introduction div .left h1, .introduction div .left .h1 {
   font-family: "Fredericka the Great", cursives;
   font-size: 5em;
+  text-align: center;
+  margin: 0.5em;
 }
 .introduction div .left h2, .introduction div .left .h2 {
   font-family: "Inspiration", cursive;
   font-weight: bolder;
-  font-size: 3em;
+  font-size: 3.5em;
+  text-align: center;
+  color: #332f2f;
+  margin: 0.5em;
 }
 .introduction div .left p {
   font-family: "Crete Round", serif;
+  color: #575050;
+  font-weight: bold;
+  font-size: large;
+  padding: 0.5em;
+}
+.introduction div .left p a {
+  text-decoration: dotted;
+  color: #539c53;
+}
+.introduction div .left ul {
+  width: 100%;
 }
 .introduction div .left ul li {
   font-family: "Crete Round", serif;
+  font-size: medium;
+  color: #575050;
 }
 .introduction div .card {
   height: max-content;
@@ -21356,7 +21418,7 @@ header .headerImage {
   width: 50%;
 }
 .introduction div .card .info p {
-  font-size: large;
+  font-size: medium;
   font-weight: 600;
 }
 .introduction div .card .social_media {
@@ -21365,34 +21427,37 @@ header .headerImage {
   border-bottom-right-radius: 2em;
 }
 
-.consultations {
-  margin-top: 3em;
+.possibilities {
+  background-color: rgba(165, 213, 133, 0.803);
+  border-radius: 3em;
 }
-.consultations .container .row .col {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.possibilities h2, .possibilities .h2 {
+  font-family: "Crete Round", serif;
+  font-size: xx-large;
 }
-.consultations .container .row .col img {
-  height: 11em;
-  width: 50%;
-  object-fit: fill;
-  border-radius: 60%;
-  border: 5px solid lightblue;
+.possibilities ul li {
+  font-size: large;
+  font-weight: bold;
+  color: #3c3838;
+  margin: 1em;
 }
-.consultations .container .row .col .image1 {
-  object-fit: cover;
+.possibilities button {
+  height: 2.5em;
+  width: 35%;
+  margin-bottom: 3em;
+  border: none;
+  border-radius: 1.5em;
+  background-color: #e07b7b;
+  color: white;
 }
-.consultations .container .row .col .image2 {
-  object-fit: cover;
-}
-.consultations .container .row .col h3, .consultations .container .row .col .h3 {
-  margin-top: 1.5em;
+.possibilities button a {
+  text-decoration: none;
+  color: white;
 }
 
 html {
   box-sizing: border-box;
-  background: #ffc600;
+  background: #acf3a1;
   font-family: "helvetica neue";
   font-size: 20px;
   font-weight: 200;

@@ -1,0 +1,48 @@
+.consultations{
+
+    .container{
+        width: 78%;
+        .row{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h1{
+                font-family:'Crete Round', serif;
+                color: rgb(53, 45, 45);
+            }
+            .col{
+                margin: 3em;
+                background-color: rgb(210, 243, 178);
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: column;
+                align-items: center;
+                border-radius: 3em;
+                
+                img{
+                    height: 15em;
+                    width: 25%;
+                    object-fit: fill;
+                    border-radius: 60%;
+                    border: 5px solid lightblue ;
+                    margin-top: 2em;
+                }
+                .image1{
+                    object-fit: cover;
+                }
+                .image2{
+                    object-fit: cover;
+                }
+                h3{
+                    margin-top: 1.5em
+                }
+                p{
+                    margin: 2em;
+                    font-family: 'Crete Round', serif;
+                }
+            }
+        }
+    }
+}
+

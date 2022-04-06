@@ -1,0 +1,43 @@
+
+    .possibilities{
+        background-color:rgba(165, 213, 133, 0.803)  ;
+        border-radius: 3em;
+        h2{
+            font-family:  'Crete Round', serif;
+            font-size: xx-large;
+        }
+        ul{
+            li{
+                font-size: large;
+                font-weight: bold;
+                color: #3c3838 ;
+                margin: 1em;
+            }
+        }
+        button{
+            height: 2.5em;
+            width: 35%;
+            margin-bottom: 3em;
+            border: none;
+            border-radius: 1.5em ;
+            background-color: rgb(224, 123, 123);
+            color: white;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+        
+            
+        // .playing {
+        // transform: scale(1.1);
+        // border: solid 3px;
+        // border-color: rgb(224, 123, 123);
+        // box-shadow: 0 0 1rem #e23890;
+    
+        // color: #3c3838;
+        // }
+
+        
+    }
+    
