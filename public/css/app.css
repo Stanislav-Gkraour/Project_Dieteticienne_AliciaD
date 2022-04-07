@@ -21427,7 +21427,7 @@ header .headerImage {
   border-bottom-right-radius: 2em;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
   * {
     margin: 0;
   }
@@ -21435,9 +21435,6 @@ header .headerImage {
   .introduction {
     display: flex;
     flex-direction: column;
-  }
-  .introduction div {
-    position: relative;
   }
   .introduction div .right {
     display: none;
@@ -21449,7 +21446,6 @@ header .headerImage {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
   .introduction div .left .introText h1, .introduction div .left .introText .h1 {
@@ -21459,44 +21455,6 @@ header .headerImage {
   }
   .introduction div .card {
     display: none;
-    height: max-content;
-    width: 5em;
-    border-radius: 2em;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #B0E57B;
-    box-shadow: 3px 3px 15px 5px rgba(165, 213, 133, 0.803);
-    border: none;
-  }
-  .introduction div .card .ownerImage {
-    margin-top: 2em;
-    margin-bottom: 1.5em;
-    height: 9.375em;
-    width: 50%;
-    border-radius: 50%;
-  }
-  .introduction div .card .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1em;
-    font-family: "Crete Round", serif;
-  }
-  .introduction div .card .info hr {
-    height: 2px;
-    color: #ff002f;
-    width: 50%;
-  }
-  .introduction div .card .info p {
-    font-size: medium;
-    font-weight: 600;
-  }
-  .introduction div .card .social_media {
-    background-color: white;
-    border-bottom-left-radius: 2em;
-    border-bottom-right-radius: 2em;
   }
 }
 .possibilities {
@@ -21506,14 +21464,18 @@ header .headerImage {
 .possibilities h2, .possibilities .h2 {
   font-family: "Crete Round", serif;
   font-size: xx-large;
+  padding: 3em;
 }
-.possibilities ul li {
+.possibilities .textContainer {
+  width: 80%;
+}
+.possibilities .textContainer ul li {
   font-size: large;
   font-weight: bold;
   color: #3c3838;
   margin: 1em;
 }
-.possibilities button {
+.possibilities .textContainer button {
   height: 2.5em;
   width: 35%;
   margin-bottom: 3em;
@@ -21522,11 +21484,24 @@ header .headerImage {
   background-color: #e07b7b;
   color: white;
 }
-.possibilities button a {
+.possibilities .textContainer button a {
   text-decoration: none;
   color: white;
 }
 
+@media screen and (max-width: 415px) {
+  .possibilities h2, .possibilities .h2 {
+    padding: 1em;
+  }
+  .possibilities .textContainer {
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+  }
+  .possibilities .textContainer .appointmentButton {
+    width: 65%;
+  }
+}
 html {
   box-sizing: border-box;
   font-size: 20px;
