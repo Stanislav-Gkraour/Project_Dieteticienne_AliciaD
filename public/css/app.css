@@ -21274,12 +21274,12 @@ header {
   top: 0;
   z-index: 1;
 }
-header nav {
+header .navbar {
   font-family: "Crete Round", serif;
   font-family: "Rye", cursive;
-  background-color: #E6DACE;
+  background-color: #e6dace;
 }
-header nav .navIcon {
+header .navbar .navIcon {
   height: 3em;
   transform: rotate(45deg);
 }
@@ -21427,6 +21427,78 @@ header .headerImage {
   border-bottom-right-radius: 2em;
 }
 
+@media screen and (min-width: 414px) {
+  * {
+    margin: 0;
+  }
+
+  .introduction {
+    display: flex;
+    flex-direction: column;
+  }
+  .introduction div {
+    position: relative;
+  }
+  .introduction div .right {
+    display: none;
+  }
+  .introduction div .left {
+    width: 100%;
+  }
+  .introduction div .left .introText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .introduction div .left .introText h1, .introduction div .left .introText .h1 {
+    font-size: 3em;
+    margin: 0;
+    width: max-content;
+  }
+  .introduction div .card {
+    display: none;
+    height: max-content;
+    width: 5em;
+    border-radius: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B0E57B;
+    box-shadow: 3px 3px 15px 5px rgba(165, 213, 133, 0.803);
+    border: none;
+  }
+  .introduction div .card .ownerImage {
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    height: 9.375em;
+    width: 50%;
+    border-radius: 50%;
+  }
+  .introduction div .card .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    font-family: "Crete Round", serif;
+  }
+  .introduction div .card .info hr {
+    height: 2px;
+    color: #ff002f;
+    width: 50%;
+  }
+  .introduction div .card .info p {
+    font-size: medium;
+    font-weight: 600;
+  }
+  .introduction div .card .social_media {
+    background-color: white;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+  }
+}
 .possibilities {
   background-color: rgba(165, 213, 133, 0.803);
   border-radius: 3em;
@@ -21457,8 +21529,6 @@ header .headerImage {
 
 html {
   box-sizing: border-box;
-  background: #acf3a1;
-  font-family: "helvetica neue";
   font-size: 20px;
   font-weight: 200;
 }
@@ -21505,15 +21575,15 @@ body {
 }
 
 .panel3 {
-  background-image: url("../../../public/img/farhad-ibrahimzade-LJ49dflDcH8-unsplash.jpg");
+  background-image: url("../../../public/img/IMG_0333.jpeg");
 }
 
 .panel4 {
-  background-image: url("../../../public/img/clark-douglas-VepJDAuitQ4-unsplash.jpg");
+  background-image: url("../../../public/img/IMG_4561.jpeg");
 }
 
 .panel5 {
-  background-image: url("../../../public/img/louis-hansel--9CjvlbUGhY-unsplash.jpg");
+  background-image: url("../../../public/img/IMG_4593.jpeg");
 }
 
 /* Flex Children */

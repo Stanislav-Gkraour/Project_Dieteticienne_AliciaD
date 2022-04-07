@@ -1,8 +1,6 @@
 
     html {
       box-sizing: border-box;
-      background: #acf3a1;
-      font-family: 'helvetica neue';
       font-size: 20px;
       font-weight: 200;
     }
@@ -45,9 +43,9 @@
 
     .panel1 { background-image:url("../../../public/img/ellieelien-wg2xU_UNiVc-unsplash.jpg");}
     .panel2 { background-image:url("../../../public/img/edgar-castrejon-J04BD4ysoh8-unsplash.jpg"); }
-    .panel3 { background-image:url("../../../public/img/farhad-ibrahimzade-LJ49dflDcH8-unsplash.jpg"); }
-    .panel4 { background-image:url("../../../public/img/clark-douglas-VepJDAuitQ4-unsplash.jpg"); }
-    .panel5 { background-image:url("../../../public/img/louis-hansel--9CjvlbUGhY-unsplash.jpg"); }
+    .panel3 { background-image:url("../../../public/img/IMG_0333.jpeg"); }
+    .panel4 { background-image:url("../../../public/img/IMG_4561.jpeg"); }
+    .panel5 { background-image:url("../../../public/img/IMG_4593.jpeg"); }
 
     /* Flex Children */
     .panel > * {
@@ -87,4 +85,5 @@
       font-size: 40px;
       flex: 5;
     }
+  
   

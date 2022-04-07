@@ -101,4 +101,80 @@
         }
     }
 }
+
+  @media  screen and(min-width: 414px) {
+      * {
+          margin: 0;
+      }
+    .introduction{
+        display: flex;
+        flex-direction: column;
+        div{
+            position: relative;
+            .right{
+                display: none;
+            }
+            .left{
+                width: 100%;
+                .introText{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    h1{
+                        font-size: 3em;
+                        margin: 0;
+                        width: max-content;
+                    }
+                }
+            }
+                .card{
+                    display: none;
+            height: max-content;
+            width: 5em;
+            border-radius: 2em;
+           
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center;
+            background-color: $navBgColor2 ;
+            box-shadow: 3px 3px 15px 5px rgba(165, 213, 133, 0.803);
+            border: none;
+  
+                .ownerImage{
+                    margin-top: 2em;
+                    margin-bottom: 1.5em;
+                    height: 9.375em;
+                    width: 50%;
+                    border-radius: 50%;
+                }
+                .info{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 1em; 
+                    font-family: 'Crete Round', serif;
+                    hr{
+                        height: 2px;
+                        color: #ff002f;
+                        width: 50%;
+                    }
+                    p{
+                        font-size: medium;
+                        font-weight: 600;
+                    }
+                }
+                .social_media{
+                    
+                    background-color: white;
+                    border-bottom-left-radius: 2em;
+                    border-bottom-right-radius: 2em;
+                }
+            
+        }
+        }
+    }
+  }
    
