@@ -21427,7 +21427,7 @@ header .headerImage {
   border-bottom-right-radius: 2em;
 }
 
-@media screen and (min-width: 414px) {
+@media screen and (max-width: 414px) {
   * {
     margin: 0;
   }
