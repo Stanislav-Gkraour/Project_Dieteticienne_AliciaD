@@ -41,11 +41,12 @@
       align-items: center;
     }
 
-    .panel1 { background-image:url("../../../public/img/ellieelien-wg2xU_UNiVc-unsplash.jpg");}
-    .panel2 { background-image:url("../../../public/img/edgar-castrejon-J04BD4ysoh8-unsplash.jpg"); }
+    .panel1 { background-image:url("../../../public/img/7C818414-8329-42EB-9FF9-EC2B0955C602\ \(1\).JPG");}
+    .panel2 { background-image:url("../../../public/img/24A0CD80-2CBC-44E9-84B7-38BBD7926FC4.JPG"); }
     .panel3 { background-image:url("../../../public/img/IMG_0333.jpeg"); }
     .panel4 { background-image:url("../../../public/img/IMG_4561.jpeg"); }
     .panel5 { background-image:url("../../../public/img/IMG_4593.jpeg"); }
+    .panel6 { background-image:url("../../../public/img/02253C1C-7461-4CD8-A6D7-609A9F5CBFFD.JPG"); }
 
     /* Flex Children */
     .panel > * {
@@ -74,7 +75,7 @@
       text-transform: uppercase;
       font-family: 'Amatic SC', cursive;
       text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-      
+      font-size: 1em;
     }
     
     .panel p:nth-child(2) {
@@ -83,15 +84,16 @@
 
     .panel.open {
       font-size: 40px;
-      flex: 5;
+      flex: 3;
     }
     @media sreen and(max-width: 415px){
       .panels{
         min-height: 50vh;
       }
       .panel{
-        height: vh;
+        height: 50vh;
       }
+
     }
     
   
