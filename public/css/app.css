@@ -21301,6 +21301,8 @@ header .headerImage {
 .consultations .container .row h1, .consultations .container .row .h1 {
   font-family: "Crete Round", serif;
   color: #352d2d;
+  text-align: center;
+  margin: 0.5em;
 }
 .consultations .container .row .col {
   margin: 3em;
@@ -21646,6 +21648,93 @@ body {
 
   .panel {
     height: 50vh;
+  }
+}
+.rdvBody {
+  background: url("../../../public/img/appointment.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rdv .rdvInfoContainer {
+  margin-top: 3em;
+  background-color: rgba(165, 213, 133, 0.803);
+  border-radius: 3em;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rdv .rdvInfoContainer h1, .rdv .rdvInfoContainer .h1 {
+  text-align: center;
+  font-size: 4em;
+  padding: 0.2em;
+  font-family: "Fredericka the Great", cursives;
+}
+.rdv .rdvInfoContainer h3, .rdv .rdvInfoContainer .h3 {
+  text-align: center;
+  padding: 1em;
+  font-family: "Crete Round", serif;
+}
+.rdv .rdvInfoContainer button {
+  height: 2.5em;
+  width: 35%;
+  margin-bottom: 3em;
+  border: none;
+  border-radius: 1.5em;
+  background-color: #e07b7b;
+  color: white;
+}
+.rdv .rdvInfoContainer button a {
+  text-decoration: none;
+  color: white;
+}
+
+.rdvFooter {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 415px) {
+  .rdvBody {
+    background-size: 200vh;
+  }
+  .rdvBody .rdv .rdvInfoContainer {
+    background-color: rgba(213, 202, 133, 0.803);
+    border-radius: 2em;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .rdvBody .rdv .rdvInfoContainer h1, .rdvBody .rdv .rdvInfoContainer .h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: "Fredericka the Great", cursives;
+  }
+  .rdvBody .rdv .rdvInfoContainer h3, .rdvBody .rdv .rdvInfoContainer .h3 {
+    text-align: center;
+    padding: 1em;
+    font-family: "Crete Round", serif;
+  }
+  .rdvBody .rdv .rdvInfoContainer .listPosibilities {
+    width: 100%;
+  }
+  .rdvBody .rdv .rdvInfoContainer .listPosibilities li h5, .rdvBody .rdv .rdvInfoContainer .listPosibilities li .h5 {
+    font-size: large;
+  }
+  .rdvBody .rdv .rdvInfoContainer button {
+    height: 2.5em;
+    width: 80%;
+    margin-bottom: 3em;
+    border: none;
+    border-radius: 1.5em;
+    background-color: #e07b7b;
+    color: white;
+  }
+  .rdvBody .rdv .rdvInfoContainer button a {
+    font-size: large;
+    text-decoration: none;
+    color: white;
   }
 }
 

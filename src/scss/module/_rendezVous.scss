@@ -1,0 +1,94 @@
+.rdvBody {
+  background: url("../../../public/img/appointment.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rdv {
+  .rdvInfoContainer {
+    margin-top: 3em;
+    background-color: rgba(165, 213, 133, 0.803);
+    border-radius: 3em;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      text-align: center;
+      font-size: 4em;
+      padding: 0.2em;
+      font-family: "Fredericka the Great", cursives;
+    }
+    h3 {
+      text-align: center;
+      padding: 1em;
+      font-family: "Crete Round", serif;
+    }
+    button {
+      height: 2.5em;
+      width: 35%;
+      margin-bottom: 3em;
+      border: none;
+      border-radius: 1.5em;
+      background-color: rgb(224, 123, 123);
+      color: white;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}
+.rdvFooter {
+  opacity: 0.9;
+}
+@media screen and(max-width: 415px) {
+  .rdvBody {
+    background-size: 200vh;
+
+    .rdv {
+      .rdvInfoContainer {
+        background-color: rgba(213, 202, 133, 0.803);
+        border-radius: 2em;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1 {
+          text-align: center;
+          font-size: 3em;
+
+          font-family: "Fredericka the Great", cursives;
+        }
+        h3 {
+          text-align: center;
+          padding: 1em;
+          font-family: "Crete Round", serif;
+        }
+        .listPosibilities {
+          width: 100%;
+          li {
+            h5 {
+              font-size: large;
+            }
+          }
+        }
+        button {
+          height: 2.5em;
+          width: 80%;
+          margin-bottom: 3em;
+          border: none;
+          border-radius: 1.5em;
+          background-color: rgb(224, 123, 123);
+          color: white;
+
+          a {
+            font-size: large;
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

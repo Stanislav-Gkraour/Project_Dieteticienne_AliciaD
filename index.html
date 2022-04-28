@@ -29,7 +29,7 @@
                     <li class="nav-item">
                     <a class="nav-link" href="pages/consultations.html">Consultations</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Mes recettes
                     </a>
@@ -42,13 +42,13 @@
                     </li>
                     <li class="nav-item">
                     <a class="nav-link " href="#" tabindex="-1" >A propos</a>
+                    </li>--> 
+                    <li class="nav-item">
+                    <a class="nav-link " href="./pages/rdv.html" tabindex="-1" >Rendez-vous</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link " href="#" tabindex="-1" >Rendez-vous</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link " href="#" tabindex="-1" >Contact</a>
-                    </li>
+                    <a class="nav-link " href="#contactInfo" tabindex="-1" >Contact</a>
+                    </li> 
                 </ul>
                 <form class="d-flex"> 
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -66,7 +66,7 @@
         <div class="left">
             <div class="container-fluid introText">
                 <h1 class="mt-5">Bienvenue</h1>
-                <h2>Qui suis-je  ?</h2>
+                <h2>Qui suis-je ?</h2>
                 <p> Je m'appelle Alicia Doumont, ayant toujours été intéressée par l'alimentation c'est tout naturellement que j'ai entrepris 
                     un bachelier en diététique à la Haute Ecole de la Province de Liège ( diplômée en 2016 )</p>
                 <p>Je suis  agréée par le SPF Santé Publique et l’INAMI, spécialisée en gériatrie et psychogériatrie,  et membre de: </p>
@@ -104,32 +104,7 @@
             </div>
         </div>
     </section>
-
-    <section class="container pt-5 mt-5">
-        <div class="possibilities">
-            <h2 class="text-start  text-center">Vous pouvez me consulter pour :</h2>
-            <div class="container textContainer  d-flex justify-content-center flex-column align-items-center">
-                <ul class="pb-5">
-                    <li>Perte de poids et rééquilibrage alimentaire</li>
-                    <li>Prise en charge surpoids/obésité</li>
-                    <li>Alimentation de la femme enceinte et allaitante</li>
-                    <li>Végétarisme</li>
-                    <li>Gestion d’Intolérances / allergies alimentaires</li>
-                    <li>Pathologies intestinales/ digestives ( ulcères, reflux gastro-œsophagien, hernie hiatale, syndrome de l'intestin irritable, régime pauvre en FODMAPs,...)</li>
-                    <li>Se sentir plus en forme via une alimentation plus équilibrée </li>
-                    <li>Retrouver une relation saine avec son alimentation </li>
-                    <li>Stabiliser son diabète (type 1 & 2 – préadiabète et diabète gestationnel)</li>
-                    <li>Diminuer son taux de cholestérol et/ou de triglycérides</li>
-                </ul>
-                <!-- ----------------------------------------------------------------------- -->
-                <!--                               Button RDV                                -->
-                <!-- ----------------------------------------------------------------------- -->
-                <button class="appointmentButton"><a href="https://book.timify.com/?accountId=6047e54c78d08a11
-5ffda591&hideCloseButton=true" target="_blank" rel="noopener noreferrer"> PRENDRE RDV EN LIGNE </a></button>
-            </div>
-        </div>
-    </section>
-    <!-- ----------------------------------------------------------------------- -->
+        <!-- ----------------------------------------------------------------------- -->
     <!--                               Flex Panels                               -->
     <!-- ----------------------------------------------------------------------- -->
     <section class="flexPanel ">
@@ -170,12 +145,37 @@
           </div>
         </div>
     </section>
+    <section class="container pt-5 mt-5">
+        <div class="possibilities">
+            <h2 class="text-start  text-center">Vous pouvez me consulter pour :</h2>
+            <div class="container textContainer  d-flex justify-content-center flex-column align-items-center">
+                <ul class="pb-5">
+                    <li>Perte de poids et rééquilibrage alimentaire</li>
+                    <li>Prise en charge surpoids/obésité</li>
+                    <li>Alimentation de la femme enceinte et allaitante</li>
+                    <li>Végétarisme</li>
+                    <li>Gestion d’Intolérances / allergies alimentaires</li>
+                    <li>Pathologies intestinales/ digestives ( ulcères, reflux gastro-œsophagien, hernie hiatale, syndrome de l'intestin irritable, régime pauvre en FODMAPs,...)</li>
+                    <li>Se sentir plus en forme via une alimentation plus équilibrée </li>
+                    <li>Retrouver une relation saine avec son alimentation </li>
+                    <li>Stabiliser son diabète (type 1 & 2 – préadiabète et diabète gestationnel)</li>
+                    <li>Diminuer son taux de cholestérol et/ou de triglycérides</li>
+                </ul>
+                <!-- ----------------------------------------------------------------------- -->
+                <!--                               Button RDV                                -->
+                <!-- ----------------------------------------------------------------------- -->
+                <button class="appointmentButton"><a href="https://book.timify.com/?accountId=6047e54c78d08a11
+5ffda591&hideCloseButton=true" target="_blank" rel="noopener noreferrer"> PRENDRE RDV EN LIGNE </a></button>
+            </div>
+        </div>
+    </section>
+
    <!-- Footer -->
    <!-- Start of Map Area -->
 
    
    <!-- End of Map Area -->
-   <footer class="text-white text-center text-lg-start mt-5" style="background-color: #23242a ">
+   <footer class="text-white text-center text-lg-start mt-5"  id="contactInfo" style="background-color: #23242a ">
     
     <!-- Grid container -->
     <div class="container p-4">

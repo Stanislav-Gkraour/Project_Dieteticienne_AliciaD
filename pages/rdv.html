@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultations</title>
+    <link rel="stylesheet" href="../public/css/app.css">
+</head>
+<body class="rdvBody">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+               <div class="container-fluid">
+                   <a class="navbar-brand" href="/index.html"> <img class="navIcon" src="../public/img/avocado.png" alt="avocado"></a>
+                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+                   </button>
+                   <div class="collapse navbar-collapse" id="navbarScroll">
+                   <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100vh;">
+                       <li class="nav-item">
+                       <a class="nav-link active" aria-current="page" href="../index.html">Accueil</a>
+                       </li>
+                       <li class="nav-item">
+                       <a class="nav-link" href="../pages/consultations.html">Consultations</a>
+                       </li>
+                       </li>
+          
+                       <li class="nav-item">
+                       <a class="nav-link " href="../pages/rdv.html" tabindex="-1" >Rendez-vous</a>
+                       </li>
+                       <li class="nav-item">
+                       <a class="nav-link " href="#contacts" tabindex="-1" >Contact</a>
+                       </li>
+                   </ul>
+                   <form class="d-flex"> 
+                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                       <button class="btn btn-outline-success" type="submit">Search</button>
+                   </form>
+                   </div>
+               </div>
+       </nav>
+    </header>
+
+
+    <section class="rdv">
+        <div class="container rdvInfoContainer">
+            <h1>Rendez-Vous</h1>
+            <h3>Vous pouvez prendre rendez-vous par:</h3> 
+            <ul class="listPosibilities">
+                <li><h5>Téléphone au : <span>0474/77.13.37</span> </h5></li>
+                <li><h5>Email : <span>doumontalicia.diet@gmail.com</span></h5></li>
+                <li><h5>En ligne via le bouton </h5></li>
+            </ul>
+            <button class="appointmentButton"><a href="https://book.timify.com/services?accountId=6047e54c78d08a115ffda591&amphideCloseButton=true" target="_blank" rel="noopener noreferrer"> PRENDRE RDV EN LIGNE </a></button>
+        </div>
+    </section>
+
+
+    <footer class="text-white text-center text-lg-start mt-5 rdvFooter" style="background-color: #23242a ">
+    
+    <!-- Grid container -->
+    <div class="container p-4">
+        <!--Grid row-->
+        <div class="row mt-4">
+            <!--Grid column-->
+               <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4 ">Horaire de consultation </h5>
+
+          <table class="table text-center text-white w-75">
+            <tbody class="font-weight-normal">
+              <tr>
+                <td>Lundi:</td>
+                <td>13:30 - 20:00 </td>
+              </tr>
+              <tr>
+                <td>Jeudi:</td>
+                <td>16:30 - 20:30</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ">
+          <h5 class="text-uppercase mb-4 pb-1 ">Contact</h5>
+
+         
+
+          <ul class="fa-ul" style="margin-left: 1.65em;">
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-home"></i></span> Bd du Souverain 348 Boite 71, 1160 Auderghem<span class="ms-2"></span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">doumontalicia.diet@gmail.com
+              </span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 32 474 77 13 37 </span>
+            </li>
+            
+          </ul>
+          <div class="mt-4">
+            
+            <!-- Instagram -->
+            <a type="button" target="_blank" href="https://www.instagram.com/ali_dietidea/" class="btn btn-floating btn-warning btn-lg"><i class="fa-brands fa-instagram"></i></a>
+            <!-- Google + -->
+            
+            <a type="button"  target="_blank" href="https://www.google.com/maps/place/Doumont+Alicia+-+Di%C3%A9t%C3%A9ticienne+nutritionniste+agr%C3%A9%C3%A9e+Auderghem/@50.8203432,4.4293184,15z/data=!4m5!3m4!1s0x0:0x6c4a8934ce91a969!8m2!3d50.8203432!4d4.4293184" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-google-plus-g"></i></a>
+           
+            <!-- LinkedIn -->
+            <a type="button" href="https://www.linkedin.com/in/alicia-doumont-1888a9177/" class="btn btn-floating btn-warning btn-lg"><i class="fa-brands fa-linkedin-in"></i></i></a>
+            <!-- Linkedin -->
+          </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+     
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4">Geolocalisation</h5>
+                
+                
+                    <div class="map-area">
+                   <!-- google-map-area start -->
+                        <div class="google-map-area">
+                            <!--  Map Section -->
+                            <div id="contacts" class="map-area">
+                                <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="" marginwidth="3" id="gmap_canvas" src="https://maps.google.com/maps?width=820&amp;height=500&amp;hl=en&amp;q=Bd du Souverain 348 bte 71, 1160 Auderghem&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                            </div>
+                        </div>
+                    </div>
+          
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © <script>document.write(new Date().getFullYear());</script> Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Alicia Doumont</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</body>
+</html>
