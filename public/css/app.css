@@ -21291,6 +21291,8 @@ header .headerImage {
 
 .consultations .container {
   width: 78%;
+  display: flex;
+  justify-content: center;
 }
 .consultations .container .row {
   display: flex;
